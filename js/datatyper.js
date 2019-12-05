@@ -1,0 +1,6 @@
+// SNOBUSN
+//Dynamisk typning
+
+
+
+
