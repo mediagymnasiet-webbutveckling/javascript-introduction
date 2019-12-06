@@ -1,5 +1,10 @@
 //Funktionsdeklaration
 
+
+
+ function add8a, b) {
+     
+ }
 //Funktionsutryck (function expression)
 
 //Hoisting - bra att veta

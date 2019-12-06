@@ -1,20 +1,10 @@
 //1. var, let och const
 
-
-
-
-
+let name = "Sandra";
 
 //2. strict mode
 
-
-
-
-
-
-
 //3. eslint-disable
-
 
 //4. Uppgift var vs let/const
 /*function foo() {
