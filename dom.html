@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>The DOM</title>
+  </head>
+
+  <body>
+    <p class="hey">
+      Hey! Nu ska vi lära oss allt om  <strong>DOM:en</strong> - finns mycket <em> man kan göra!</em>
+    </p>
+    <img class="nice cool" src="https://picsum.photos/500" />
+
+    <div class="items">
+      <div class="item">
+        <img
+          class="custom"
+          src="https://picsum.photos/200"
+        />
+        <img src="https://picsum.photos/200" />
+        <img src="https://picsum.photos/200" />
+
+        <p>Hey, jag är ett <em>item</em></p>
+      </div>
+      <div class="item item2">
+        <img src="https://picsum.photos/200" />
+        <h2>
+            Hey, jag är en <em> rubrik</em>
+          <span>jag är gömd!</span>
+        </h2>
+        <p>Hey, jag är ett till <em>item</em></p>
+      </div>
+      <article class="item">
+        <h2>Jag är en article</h2>
+        <p class="pizza">Efter denna kommer en pizza! 🍕</p>
+      </article>
+    </div>
+
+    <style>
+      h2 span {
+        display: none;
+      }
+
+      img {
+        transition: all 0.2s;
+      }
+
+      .round {
+        border-radius: 50%;
+        transform: rotate(1turn) scale(0.5);
+        box-shadow: 0 0 10px black;
+      }
+    </style>
+
+    <script src="js/dom.js"></script>
+  </body>
+</html>

@@ -1,16 +1,17 @@
+/* eslint-disable*/
 //1. var, let och const
 //2. strict mode
-"use strict"; //Bra att ha i början av ett script för att skriva säker kod!
+'use strict'; //Bra att ha i början av ett script för att skriva säker kod!
 
-var name = "Sandra"; //ES1  - gammal kvarleva
-console.log(name);
+var firstName = "Sandra"; //ES1  - gammal kvarleva
+console.log(firstName);
 
 age = 20;
 console.log(age);
 
-const name = "Sandra"; //ES6 - använd detta!
-//name = "SSSandra"; //går ej att ändra
-//console.log(name);
+const surName = "Larsson"; //ES6 - använd detta!
+//name = "LLLarsson"; //går ej att ändra
+//console.log(surName);
 
 let age = 20;
 age = 21;
