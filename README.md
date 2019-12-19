@@ -1,4 +1,4 @@
-# Genomgån av grunderna i Javascript
+# Genomgång av grunderna i Javascript
 
 Lektion 1 - Variabler och datatyper (variabler.js och datatyper.js
 
