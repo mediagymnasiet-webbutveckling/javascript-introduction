@@ -10,7 +10,6 @@ console.log(ps[3]);
 
 p.textContent = "Ny text här!!!";
 
-// Inre och yttre html
 
 // 2. ÄNDRA KLASS
 
@@ -87,5 +86,5 @@ const myHTML = `
 
 // Lägga till HTML-strängen med innerHTML till wrappern
 
-document.body.innerHTML = myHTML;
+div.innerHTML = myHTML;
 

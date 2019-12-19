@@ -34,14 +34,6 @@
 //   <h2>NAME — AGE</h2>
 //   <p>They are HEIGHT and AGE years old. In Dog years this person would be AGEINDOGYEARS (age*7). That would be a tall dog!</p>
 // </div>
- function generatePlayerCard(name, age, height) {
-const html =  `<div class="playerCard">
-//   <h2>NAME — AGE</h2>
-//   <p>They are HEIGHT and AGE years old. In Dog years this person would be AGEINDOGYEARS (age*7). That would be a tall dog!</p>
-// </div>
-
-return html:
- }
 
 
 // 15. Skapa en ny div med klassen "cards"
